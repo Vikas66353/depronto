@@ -1,0 +1,59 @@
+body{
+  
+}
+
+.allblogs{
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+  margin-left: 100px;
+  grid-gap: 50px;
+}
+
+.addbox{
+  border: 1px solid cyan;
+  border-radius: 30px;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btadd{
+  margin-top: 10px;
+  border-radius: 5px;
+  background: cyan;
+  border: 0;
+  width: 130px;
+  height: 35px;
+  font: 20px Arial, sans-serif;
+  margin-left: 10%;
+  color: white;
+}
+
+.btadd:hover{
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.textarea{
+  margin-top:10px;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+}
